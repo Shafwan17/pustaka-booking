@@ -9,7 +9,7 @@ class Model_aritmatika extends CI_Model
         $nilai1 = $n1;
         $nilai2 = $n2;
         $hasil = $nilai1 + $nilai2;
-        echo $hasil;
+        return $hasil;
     }
 }
         
